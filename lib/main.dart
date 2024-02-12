@@ -1,3 +1,5 @@
+// ignore_for_file: deprecated_member_use
+
 import 'package:expense_tracker/expenses.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -17,7 +19,7 @@ void main() {
 
 var kDarkColorScheme = ColorScheme.fromSeed(
   brightness: Brightness.dark,
-  seedColor: Color.fromARGB(255, 5, 76, 123),
+  seedColor: const Color.fromARGB(255, 5, 76, 123),
 );
 
 class MyApp extends StatelessWidget {
